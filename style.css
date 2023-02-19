@@ -9,11 +9,14 @@ body{
     height: auto;
 }
 
+.header, .sub, .par, .list, .links{
+    color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .header { /* style for all headers */
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 32px;
-    color: azure;
 }
 .sub{ /* style for subtitles */
     font-size: 24px;
@@ -24,7 +27,9 @@ body{
 .list{ /* style for anything that has a list */
     display: table;
     margin: 0 auto;
-    color: azure;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+.links{ /* style for links */
+    text-align: center;
     font-size: 18px;
 }
