@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(65, 66, 80);
+}
+
+.index-content {
+    text-align: center;
+}
+.recipe-list{
+    display: table;
+    margin: 0 auto;
+    background-color: aliceblue;
+    font-size: 18px;
+}
+.index-title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    color: azure;
+}
+.sub{
+    font-size: 24px;
+}
+
+
+#mouse-eating {
+width: 600px;
+height: auto;
+}
